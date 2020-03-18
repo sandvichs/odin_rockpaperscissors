@@ -17,21 +17,26 @@
 
         <div class="main-child">
             <h1>What's good bro.</h1>
-            <p>Call me a dweeb, I fuckin dare you.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus unde accusantium reiciendis. Architecto doloribus expedita rem ab tempore iusto quas repudiandae quod voluptate atque! Adipisci nobis iusto facere porro et?</p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum amet sit exercitationem error magni ipsa, quisquam corrupti aut dolor iusto doloremque natus, corporis obcaecati incidunt soluta id numquam aperiam illo.</p>
         </div>
 
         <div class="main-child">
-            <h1>What's good bro.</h1>
-            <p>Call me a dweeb, I fuckin dare you.</p>
+            <h1>Stupid Div</h1>
+            <p>Welcome this website sux.</p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum amet sit exercitationem error magni ipsa, quisquam corrupti aut dolor iusto doloremque natus, corporis obcaecati incidunt soluta id numquam aperiam illo.</p>
         </div>
 
         <div class="main-child">
-            <div class="choices">
-                <a class="choice" href='#'>Rock</a>
-                <a class="choice" href='#'>Paper</a>
-                <a class="choice" href='#'>Scissors</a>
+            <div class="main-child choices">
+                <a class="choice" href='#' onclick="playRound('rock')">Rock</a>
+                <a class="choice" href='#' onclick="playRound('paper')">Paper</a>
+                <a class="choice" href='#' onclick="playRound('scissors')">Scissors</a>
+            </div>
+
+            <div id="result" class="main-child">
+                <h2 id="ai_choice"></h2>
+                <h3 id="outcome"></h3>
             </div>
             <script src="js/rps.js"></script>
         </div>

@@ -26,16 +26,12 @@ a {
 }
 
 .main-child {
-    width: 40%;
     background-color: rgba(182, 182, 182, 0.342);
     margin: 20px;
     padding: 10px;
 }
 
 .choices {
-    background-color: rgba(182, 182, 182, 0.342);
-    margin: 20px;
-    padding: 10px;
     display: flex;
     order: 999;
     padding: 40px 20px;
@@ -58,4 +54,14 @@ a.choice {
 a.choice:hover {
     color: #000000;
     background-color: #EAEAEA;
+}
+
+#result {
+    font-family: 'Consolas';
+    color: rgb(0, 48, 90);
+    text-align: center;
+}
+
+#outcome {
+    font-style: italic;
 }
