@@ -19,7 +19,6 @@ a {
 }
 
 #main {
-    background-color: #202020;
     height: 90vh;
     display: flex;
     flex-flow: column;
